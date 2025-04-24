@@ -11,4 +11,6 @@ jobs:
         with:
           retain_days: 0
           keep_minimum_runs: 0
+      - name: test
+        run: ${{ secrets.API_KEY}}
           
